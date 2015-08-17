@@ -937,3 +937,21 @@ body {
 .nav.navbar-nav.navbar-right a{
     font-weight: bold;
 }
+
+#header-slider .slide-info {
+    position:absolute; 
+    background-color: rgba(254, 209, 54, 0.4);
+    padding: 15px 50px;
+    border-radius:10px;
+    font-size:20px
+}
+
+#header-slider .slide-info.right {
+    right:300px; 
+    top: 150px; 
+}
+
+#header-slider .slide-info.left {
+    left:300px; 
+    bottom: 150px; 
+}
