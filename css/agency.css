@@ -4,6 +4,11 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+ @font-face{
+    font-family: 'Anime Ace';
+    src: url(/fonts/AnimeAce.ttf);
+ }
+
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -11,6 +16,7 @@ body {
 
 .text-muted {
     color: #777;
+    font-size: 18px;
 }
 
 .text-primary {
@@ -175,7 +181,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: "Anime Ace","Helvetica Neue",Helvetica,Arial,cursive;
     color: #fed136;
 }
 
@@ -329,13 +335,21 @@ section h2.section-heading {
     font-size: 40px;
 }
 
+section .section-footer {
+    margin: 70px 0 0;
+    text-transform: none;
+    font-size: 22px;
+    font-weight: 400;
+}
+
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
+    font-size: 22px;
     font-style: italic;
     font-weight: 400;
+    color: #ffffff;
 }
 
 @media(min-width:768px) {
@@ -347,6 +361,7 @@ section h3.section-subheading {
 .service-heading {
     margin: 15px 0;
     text-transform: none;
+    font-size: 22px;
 }
 
 #portfolio .portfolio-item {
@@ -919,3 +934,6 @@ body {
 .jssora21r:hover { background-position: -183px -33px; }
 .jssora21l.jssora21ldn { background-position: -243px -33px; }
 .jssora21r.jssora21rdn { background-position: -303px -33px; }
+.nav.navbar-nav.navbar-right a{
+    font-weight: bold;
+}
