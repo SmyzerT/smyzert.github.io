@@ -955,3 +955,9 @@ body {
     left:300px; 
     bottom: 150px; 
 }
+@media (max-width: 767px) {
+    .navbar-fixed-top{
+        position: relative;
+        margin: 0;
+    }
+}
